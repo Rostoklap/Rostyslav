@@ -11,7 +11,5 @@ elif action == "*":
 elif action == "/":
     if b == 0:
         print("0 нельзя!")
-        b = int(input("Введите второе число, но не 0 :"))
-        print("Результат", a / b)
     else:
         print ("Результат", a / b)
