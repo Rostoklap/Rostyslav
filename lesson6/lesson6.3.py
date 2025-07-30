@@ -1,8 +1,9 @@
-def common_elements():
-    multiples_3 = {x for x in range(100) if x % 3 ==0}
-    multiples_5 = {x for x in range(100) if x % 5 ==0}
-    return multiples_3 & multiples_5
-print(common_elements())
+number = int(input("Введите число: "))
 
-assert common_elements() == {0, 75, 45, 15, 90, 60, 30}
-print("Все верно!")
+while number > 9:
+    x = 1
+    for digit in str(number):
+        x *= int(digit)
+    number = x
+
+print(number)
