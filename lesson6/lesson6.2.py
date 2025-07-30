@@ -16,4 +16,3 @@ else:
     day_word = "дней"
 
 print(f"{days} {day_word}, {hh}:{mm}:{ss}")
-
