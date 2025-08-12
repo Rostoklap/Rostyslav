@@ -1,4 +1,4 @@
-def difference (*args: float) -> float:
+def difference (*args) -> float:
     if not args:
         return 0
     return round(max(args) - min(args), 2)
