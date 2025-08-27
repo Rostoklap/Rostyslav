@@ -1,4 +1,6 @@
-def generate_cube_numbers(end):
+from typing import Iterator
+
+def generate_cube_numbers(end: int) -> Iterator[int]:
     n = 2
     while True:
         cube = n ** 3
